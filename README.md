@@ -1,5 +1,5 @@
-# 💸 Decentralized Blockchain Transaction System
-# 💸 Decentralized Blockchain Transaction System
+
+#  Decentralized Blockchain Transaction System
 
 A secure, peer-to-peer blockchain-based money transaction system built using **Python (Flask)** and **Solidity**, designed to eliminate intermediaries, reduce transaction costs, and enhance transparency. Developed as part of the Bachelor of Engineering curriculum at Don Bosco Institute of Technology, University of Mumbai.
 
@@ -37,10 +37,7 @@ The system follows a decentralized architecture based on Distributed Ledger Tech
 4. **Block Broadcasting & Confirmation**: The block is broadcasted to the network and confirmed by multiple nodes.  
 5. **State Tk+1 (Receiver)**: The receiver obtains the transaction, now immutably recorded on the blockchain.  
 
-### 🧩 Architecture Diagram
-![System Architecture](assets/system_architecture.png)
 
----
 
 ## 🔄 Workflow Diagram
 
@@ -49,8 +46,7 @@ LOGIN → INPUT FROM USER → AUTHORIZATION CHECK
 → TRANSACTION BEGINS → BLOCK CREATION → TRANSACTION ENDS
 ```
 
-### 🔁 Flowchart
-![Workflow](assets/workflow_diagram.png)
+
 
 ---
 
@@ -66,24 +62,6 @@ The Solidity contract `ImprovedDecentralizedBlockchain.sol` includes:
 - `receive()` — Accepts plain Ether transfers  
 
 🔗 [View Solidity Contract](contracts/decentralized.sol)
-
----
-
-## 📸 Screenshots
-
-### 🔧 Remix Deployment Interface
-![Deploy Interface](assets/deploy_interface.png)
-
-### 💬 Transaction Input & Blockchain Output
-![Block Data](assets/block_data.png)
-
-### ✅ Block Verification & Contract State
-![Verify Block](assets/verify_block.png)
-
-### 📊 GETBLOCK Function Output
-![GETBLOCK Output](assets/getblock_output.png)
-
----
 
 ## 🚀 How to Run
 
